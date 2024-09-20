@@ -27,4 +27,11 @@ https://www.baeldung.com/linux/sandboxing-process
 > The best way to keep that from happening would be to spin up a small docker image and run it in isolation
 2. **zsh support**  
 > doesnt work for hhelp zsh because zsh -h starts a new shell b/c -h option is ignored
+3. **add tldr support**
+> what about tldr?<br/><br/>
+> yeah, tldr should be in there too  
+> there should be a check to see if you have tldr installed.
+> if you do not have tldr ... dont have the command line mention it
+> if you do have it installed tell if there is an entry for it.
+
 

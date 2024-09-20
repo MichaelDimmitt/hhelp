@@ -20,11 +20,9 @@ function hhelp() {
 I was learning about chroot jails and running command lines in docker instances for a next step iteration on the tool!
 https://www.baeldung.com/linux/sandboxing-process
 
+## Current Feature requests:
+1. run this script in isolation:
+My only concern is with tools which ignore flags completely and just run. You might end up executing the tool twice (--help and -h) by accident.
+Most any basic shell script based tool which doesn't include argument parsing will simply run and ignore arguments/flags. It's the default behavior. Not common among established tools, but it's not unheard of.
 
-
-
-
-
-
-
-
+The best way to keep that from happening would be to spin up a small docker image and run it in isolation

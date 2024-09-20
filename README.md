@@ -33,5 +33,7 @@ https://www.baeldung.com/linux/sandboxing-process
 > there should be a check to see if you have tldr installed.
 > if you do not have tldr ... dont have the command line mention it
 > if you do have it installed tell if there is an entry for it.
-
+4. **supported environments**
+> The following formats should be added: a single one liner script dowload the file and to add it to your machine/rc file, homebrew package.
+> linux packages and chocolatey packages will be much later and only if people really want it. 
 

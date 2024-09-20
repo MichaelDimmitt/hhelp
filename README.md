@@ -16,7 +16,7 @@ function hhelp() {
 }
 ```
 
-## because sometimes it is hard to find the correct help function on command line.
+## Because... sometimes it is hard to find the correct help function on command line.
 I was learning about chroot jails and running command lines in docker instances for a next step iteration on the tool!
 https://www.baeldung.com/linux/sandboxing-process
 

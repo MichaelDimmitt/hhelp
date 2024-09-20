@@ -25,4 +25,6 @@ https://www.baeldung.com/linux/sandboxing-process
 That's pretty neat!  I do not use anything like this but I could see it being useful.  
 My only concern is with tools which ignore flags completely and just run. You might end up executing the tool twice (--help and -h) by accident. Most any basic shell script based tool which doesn't include argument parsing will simply run and ignore arguments/flags. It's the default behavior. Not common among established tools, but it's not unheard of.  <br/><br/>
 The best way to keep that from happening would be to spin up a small docker image and run it in isolation
-2. **zsh support**
+2. **zsh support**  
+doesnt work for hhelp zsh because zsh -h starts a new shell b/c -h option is ignored
+
